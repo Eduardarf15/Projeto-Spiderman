@@ -33,6 +33,15 @@ body{
     background-size: 100% 100%;
     background-position-x: left;
 }
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
 form, button{
     text-decoration: none;
     border: none;
@@ -44,4 +53,26 @@ a, link{
 }
 #lb{
     font-size: 10px;
+}
+input[type="text"], input[type="password"]{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+}
+.text{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+}
+.checkbox{
+    width: 15px;
+    height: 15px;
 }
